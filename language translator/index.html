@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+    <div class="wrapper">
+        <div class="text-input">
+            <textarea   class="from-text" name="from-text" id="" cols="30" rows="10" placeholder="Enter text"></textarea>
+            <textarea   class="to-text" name="to-text" id="" cols="30" rows="10" placeholder="Translation" readonly disabled  ></textarea>
+        </div>
+        <ul class="controls">
+ <li class="row from">
+    <div class="icons">
+        <i id="from" class='bx bx-broadcast'></i>
+        <i id="from" class='bx bx-copy' ></i>
+    </div>
+    <select name="" id="">
+      </select>
+ </li>
+ <li class="exchange"> <i class='bx bx-doughnut-chart'></i>
+ </li>
+ <li class="row to">
+     <select name="" id="">
+         </select>
+    <div class="icons">
+        <i id="to" class='bx bx-broadcast'></i>
+        <i id="to" class='bx bx-copy'></i>
+    </div>
+ </li>
+
+        </ul>
+    </div>
+    <button>Translate text</button>
+   </div>
+   <script src="./js/countries.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>

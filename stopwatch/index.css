@@ -1,0 +1,37 @@
+body{
+background-color: #edeaff;
+display:flex;
+max-height: 100vh;
+align-items:center;
+justify-content:center;
+}
+.stopwatch {
+    width: 900%;
+    max-width: 600px;
+background-image: url(./images/pexels-pixabay-36717.jpg);
+    text-align: center;
+    padding:40px 0;
+    margin-top: 200px;
+    box-shadow: 0 10px 10px rgb( rgb(201, 168, 168));
+    background-size:cover;
+    background-position:center;
+}
+.class-btn {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.icon{
+    font-size:60px;
+    padding:10px;
+    color: white;
+    cursor: pointer;
+}
+.stopwatch h1 {
+color:white;
+font-size:60px;
+font-weight:600;
+}
+.class-btn i:nth-child(2){
+    color:pink;
+}
