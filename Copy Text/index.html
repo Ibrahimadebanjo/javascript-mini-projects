@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        width:300px;
+        display: flex;
+        flex-flow: column;
+    }
+    form textarea {
+        padding:10px;
+        margin-bottom:10px;
+        resize: none;
+    }
+</style>
+<body>
+<form action="">
+    <textarea  readonly  id="HTMLtext" cols="30" rows="10">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel sint iste, neque 
+       facilis consectetur asperiores amet, fugit laudantium itaque, enim quam? Facere porro consectetur debitis
+        deserunt necessitatibus, numquam error incidunt iure, delectus molestias nostrum accusantium blanditiis quis. Nobis enim perferendis,
+         rerum porro sit eos, laboriosam quod asperiores doloribus quis, repellat dolor omnis libero facere explicabo! Eum architecto pariatur 
+         dolorem, atque adipisci magni. A soluta quasi nihil? Vero natus nesciunt, quod, dignissimos vel ex quisquam recusandae cumque voluptatem
+          consequatur officia minima cupiditate nihil voluptatum blanditiis enim sapiente autem debitis temporibus iusto error ea exercitationem
+           laboriosam. Quisquam corporis in, dolorum aut dolores illum itaque voluptatibus rerum nihil. Laboriosam laborum assumenda tempora 
+           veritatis beatae tempora aut ipsum quod
+        dolorum cumque repudiandae adipisci quaerat sequi repellat velit nulla, recusandae nihil nam eum facere.
+         Commodi nemo nam tenetur!
+         
+    </textarea>
+    <button id="btn">Copy Texts</button>
+</form>
+<script>
+    let HTMLtext = document.getElementById("HTMLtext");
+    let btn = document.getElementById("btn");
+    btn.onclick = function(){
+        HTMLtext.select();
+        document.execCommand("copy")
+    }
+</script>
+</body>
+</html>

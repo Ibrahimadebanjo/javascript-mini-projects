@@ -1,6 +1,5 @@
-let name = james;
 const returnName = () => {
-    ocnsole.log(name);
-    let name = sarah;
+    let name  = "james";
+    console.log(name);
 }
 returnName();
